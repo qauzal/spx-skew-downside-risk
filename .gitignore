@@ -1,0 +1,16 @@
+# Licensed source data are retained locally and are not distributed.
+data/*
+!data/README.md
+thesis/data/
+
+# Generated analysis output
+outputs/
+
+# Local tooling and caches
+.firecrawl/
+.cleanup_backup_*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db

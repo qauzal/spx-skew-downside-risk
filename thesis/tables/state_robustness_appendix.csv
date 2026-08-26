@@ -1,0 +1,13 @@
+outcome,specification,focal_variable,coefficient,standard_error,test_statistic,raw_p_value,N,event_count_if_applicable,model_type
+"DD21 event (DD21 <= -5%)","Prior-only 60-month SKEW- z-score","skew_minus_z60",-0.03708146254331039,0.160303483022331,-0.23132037959614876,0.8170659153583051,296,51,"Logit (MLE)"
+"DD21 event (DD21 <= -5%)","Prior-only low-SKEW regime","low_skew_minus",0.045098142861361906,0.4443007577883415,0.10150363705399308,0.9191506705210638,296,51,"Logit (MLE)"
+"DD21 event (DD21 <= -5%)","SKEW- z-score x prior-only low-VIX interaction","skew_z_low_vix_interaction",0.005240572520164295,0.32258034836966315,0.016245789759513886,0.9870383053293663,296,51,"Logit (MLE)"
+"DD21 loss","Prior-only 60-month SKEW- z-score","skew_minus_z60",-0.001269906135320793,0.0019644379571777987,-0.6464475656666695,0.5184955775196185,296,,"OLS with HAC/Newey-West SE (lag 1)"
+"DD21 loss","Prior-only low-SKEW regime","low_skew_minus",0.008021232519049043,0.00872844244908593,0.9189763884951836,0.35886382532865313,296,,"OLS with HAC/Newey-West SE (lag 1)"
+"DD21 loss","SKEW- z-score x prior-only low-VIX interaction","skew_z_low_vix_interaction",0.004081985060125321,0.004400760189300166,0.9275636218601727,0.3544026619890237,296,,"OLS with HAC/Newey-West SE (lag 1)"
+"LogDSV21","Prior-only 60-month SKEW- z-score","skew_minus_z60",-0.07794315524844513,0.04894850903258,-1.5923499364723521,0.1123843255400743,296,,"OLS with HAC/Newey-West SE (lag 1)"
+"LogDSV21","Prior-only low-SKEW regime","low_skew_minus",0.3421992060746681,0.17446157966228712,1.96145883086166,0.050772247378379785,296,,"OLS with HAC/Newey-West SE (lag 1)"
+"LogDSV21","SKEW- z-score x prior-only low-VIX interaction","skew_z_low_vix_interaction",0.12682765950660996,0.1066917620718465,1.1887296361382043,0.23551523078829478,296,,"OLS with HAC/Newey-West SE (lag 1)"
+"R21 10th percentile","Prior-only 60-month SKEW- z-score","skew_minus_z60",0.0031462531581777603,0.004330479358929702,0.7265369252228399,0.636,296,,"Quantile regression with moving-block bootstrap inference"
+"R21 10th percentile","Prior-only low-SKEW regime","low_skew_minus",-0.017794185280798493,0.020475329378729187,-0.869054897807114,0.196,296,,"Quantile regression with moving-block bootstrap inference"
+"R21 10th percentile","SKEW- z-score x prior-only low-VIX interaction","skew_z_low_vix_interaction",-0.006420181411100225,0.009622504992177117,-0.6672047888070404,0.638,296,,"Quantile regression with moving-block bootstrap inference"
